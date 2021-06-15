@@ -1,0 +1,466 @@
+@font-face {
+    font-family: 'Proxima Nova Rg';
+    src: url('../fonts/ProximaNova-BoldIt.woff2') format('woff2'),
+        url('../fonts/ProximaNova-BoldIt.woff') format('woff'),
+        url('../fonts/ProximaNova-BoldIt.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Th';
+    src: url('../fonts/ProximaNova-Extrabld.woff2') format('woff2'),
+        url('../fonts/ProximaNova-Extrabld.woff') format('woff'),
+        url('../fonts/ProximaNova-Extrabld.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Rg';
+    src: url('../fonts/ProximaNova-Regular.woff2') format('woff2'),
+        url('../fonts/ProximaNova-Regular.woff') format('woff'),
+        url('../fonts/ProximaNova-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Lt';
+    src: url('../fonts/ProximaNova-Semibold.woff2') format('woff2'),
+        url('../fonts/ProximaNova-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'GT America Compressed';
+    src: url('../fonts/GTAmerica-CompressedBold.woff2') format('woff2'),
+        url('../fonts/GTAmerica-CompressedBold.woff') format('woff'),
+        url('../fonts/GTAmerica-CompressedBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GT America';
+    src: url('../fonts/GTAmerica-Bold.woff2') format('woff2'),
+        url('../fonts/GTAmerica-Bold.woff') format('woff'),
+        url('../fonts/GTAmerica-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GT America Condensed';
+    src: url('../fonts/GTAmerica-CondensedLight.woff2') format('woff2'),
+        url('../fonts/GTAmerica-CondensedLight.woff') format('woff'),
+        url('../fonts/GTAmerica-CondensedLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GT America';
+    src: url('../fonts/GTAmerica-Medium.woff2') format('woff2'),
+        url('../fonts/GTAmerica-Medium.woff') format('woff'),
+        url('../fonts/GTAmerica-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GT America';
+    src: url('../fonts/GTAmerica-Regular.woff2') format('woff2'),
+        url('../fonts/GTAmerica-Regular.woff') format('woff'),
+        url('../fonts/GTAmerica-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+	background: url(../images/doodle.png);
+    font-family: 'Proxima Nova Lt';
+    padding-top: 57px;
+    background-color: #f3f5f9;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.mainwhiteheader {
+    text-align: right;
+    padding: 13px 0;
+    border-bottom: 1px solid #d1d1d1;
+    position: fixed;
+    z-index: 9;
+    width: 100%;
+    top: 0;
+	background: #f3f5f9;
+}
+
+.mainwhiteheader .rightlogoflow {
+    float: right;
+}
+
+.factsbadges {
+    width: 64px;
+    float: left;
+    position: absolute;
+    left: 17px;
+    top: -50px;
+}
+
+.mythsbadges {
+    width: 64px;
+    float: right;
+    position: absolute;
+    right: 24px;
+    top: -50px;
+}
+
+.mainwhiteheader a .fulllogo {
+    width: 26px;
+}
+
+.mainwhiteheader .rightlogoflow .icononlylogo.cupidlgo {
+    width: 48px;
+}
+
+.maintextinf.headflows {
+    max-width: initial;
+    float: left;
+}
+
+.onmobshow img {
+    width: 143px;
+}
+
+.maintextinf h1 {
+    font-family: 'Proxima Nova Th';
+    font-size: 29px;
+    color: #fd267d;
+    margin: 0;
+}
+
+.maintextinf .tincls {
+    color: #fd267d;
+	line-height: 30px;
+}
+
+.maintextinf .tincls span.pinkgrds {
+    background-image: linear-gradient( 52deg, #fd267d 0%, #ff7854 50%, #ff7854 75%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.maintextinf h1 span.orgcolo {
+    color: #ff7854;
+}
+
+.mainwhiteheader .rightlogoflow .icononlylogo {
+    display: none;
+}
+
+.mainwhiteheader.navfixed .icononlylogo {
+    display: block;
+    width: 26px;
+}
+
+.mainwhiteheader.navfixed .fulllogo {
+    display: none;
+}
+
+.actionctas .btnctas {
+    border: none;
+    background: transparent;
+    margin: 11px 8px;
+    padding: 0;
+	position: relative;
+	outline: none;
+	display: inline-block;
+}
+
+
+
+.actionctas .btnctas img {
+   width: 43px;
+    border: none;
+    background: #fefeff;
+    height: 43px;
+    border-radius: 100%;
+    box-shadow: #d0d2db85 3px 2px 6px 3px;
+}
+
+.actionctas .btnctas .tooltpsshow {
+    height: auto;
+    width: 62px;
+    position: absolute;
+    bottom: 49px;
+    background: transparent;
+    box-shadow: none;
+    left: -10px;
+    right: 0;
+    margin: auto;
+    opacity: 0;
+    transition: all ease 0.5s;
+}
+
+.actionctas .btnctas:hover .tooltpsshow {
+    opacity: 1;
+}
+
+.backleft {
+    float: left;
+}
+
+.scoreright {
+    float: right;
+    text-align: center;
+}
+
+.questioncrds {
+    margin: auto;
+    max-width: 512px;
+    text-align: center;
+}
+
+.questioncrds .fnfacts {
+    width: 145px;
+}
+
+.scoreright p {
+    margin: 0;
+    background-image: linear-gradient( 
+52deg
+, #fd267d 0%, #ff7854 50%, #ff7854 75%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 18px;
+}
+
+.backleft a {
+    color: #000;
+    text-decoration: none;
+}
+
+.questionareset {
+    padding-top: 30px;
+}
+
+.cardssets-swipe {
+    background-image: linear-gradient( 
+57deg
+, #fd267d 0%, #fe4e69 50%, #ff7854 75%);
+    max-width: 300px;
+    margin: 9px auto;
+    min-height: 316px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 19px;
+    box-shadow: #d0d2db 3px 2px 6px 3px;
+}
+
+.quizcontent {
+    margin: auto;
+	 position: relative;
+}
+
+.quizcontent p {
+    color: #ffffff;
+    font-family: 'Proxima Nova Th';
+    font-size: 25px;
+    line-height: 28px;
+}
+
+.iconqst {
+    width: 65px;
+}
+
+.iconqst-small {
+    width: 33px;
+}
+
+
+.socialshare ul li {
+    display: inline-block;
+    width: 32px;
+    margin: auto 8px;
+}
+
+.socialshare {
+    text-align: center;
+        margin: 35px 0;
+}
+
+.socialshare ul {
+    margin: 0;
+    padding: 0;
+}
+
+.socialshare p {
+    margin: 0 0 8px 0;
+}
+
+
+.gradients {
+    background-image: linear-gradient( 
+52deg
+, #fd267d 0%, #fe476c 50%, #ff7854 75%);
+    color: #fff;
+    padding: 8px 27px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-size: 13px;
+}
+
+.gradients.lrgbns {
+    padding: 8px 64px;
+}
+
+.gradients:hover{
+	text-decoration: none;
+	color:#fff;
+}
+
+.finalresshows img {
+    max-width: 244px;
+}
+
+.finalresshows {
+    margin-top: 22px;
+}
+
+.actionctas.btmmarg {
+    margin-bottom: 30px;
+	display: flex;
+	max-width: 280px;
+    margin: auto auto 30px auto;
+}
+
+.odthr {
+    order: 3;
+}
+
+.actionctas.mobileshows {
+    display: none;
+}
+
+.btmmarg.twsets {
+    margin: auto;
+    max-width: 315px;
+	    margin-bottom: 30px;
+}
+
+
+.questset {
+    border: 2px solid #000;
+   border-radius: 10px;
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+	padding: 10px 0;
+}
+
+.questset p {
+    float: left;
+	width: 82%;
+	text-align: left;
+	max-width: 827px;
+}
+
+.questset p, .questset span {
+    margin: 0;
+    font-family: 'Proxima Nova Rg';
+    font-weight: bold;
+	    margin: auto;
+		line-height: 21px;
+}
+
+.questset span {
+    float: right;
+	    width: 39px;
+		    position: relative;
+}
+
+.questset.correctred {
+    border: 2px solid #fd5068;
+	 position: relative;
+}
+
+.questset:after {content: "";position: absolute;    right: 58px; border-left: 2px solid #000;top: 0;height: 100%;}
+.questset.correctred:after{content: "";position: absolute;    right: 58px; border-left: 2px solid #fe3775;top: 0;height: 100%;}
+
+.questset:after, .questset.correctred:after{
+	right: 68px; 
+}
+
+.questset.correctred span, .questset.correctred p {
+    color: #fd5068;
+}
+
+.btmmarg.twsets .gradients{
+	padding: 11px 27px;
+}
+
+
+@media screen and (max-width: 767px) and (min-width: 320px){
+	
+	.btmmarg.twsets {
+    width: 100%;
+    max-width: initial;
+}
+
+	.questset p br {
+    display: none;
+}
+
+.questset p{width: 73%;}
+
+	.mainwhiteheader a .fulllogo{width: 26px;}
+	.maintextinf h1 {
+    font-size: 20px;
+}
+
+.actionctas.btmmarg {
+    display: none;
+}
+
+.actionctas.mobileshows {
+    display: block;
+}
+.odthr {
+    order: inherit;
+}
+
+.gradients {
+    display: block;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+}
+
+.cardssets-swipe{padding:0 10px;}
+
+.cardssets-swipe.swipcardright {
+    box-shadow: 0px 0px 3px 4px #0000001f;
+}
+
+.cardssets-swipe.swipcardleft {
+    box-shadow: 0px 0px 3px 4px #0000001f;
+}
+
