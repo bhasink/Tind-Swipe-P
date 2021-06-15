@@ -146,4 +146,8 @@
 
 <style scoped>
 
+.onmobshow:hover {
+    cursor: pointer;
+}
+
 </style>
