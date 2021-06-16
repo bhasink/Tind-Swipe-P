@@ -45,8 +45,8 @@
                     <div class="cardssets-swipe" id="cardssets-swipe">
                     <div class="quizcontent">
 
-                        <img id="mmt" style="display:none;" src="../assets/images/iconsgames/facts.png" class="factsbadges">
-				        <img id="mmtn" style="display:none;" src="../assets/images/iconsgames/mythbadge.png" class="mythsbadges"> 
+                    <img id="mmt" style="display:none;" src="../assets/images/iconsgames/facts.svg" class="factsbadges">
+				            <img id="mmtn" style="display:none;" src="../assets/images/iconsgames/mytht.svg" class="mythsbadges"> 
             
                         <p>{{current.name}}</p>
                         <img

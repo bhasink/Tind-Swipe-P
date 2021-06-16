@@ -36,7 +36,7 @@
 
                             <li><a href="https://wa.me/?text=https://tinder.knowthevaccine.com" target="_blank"><img src="../assets/images/iconsgames/Whatsapp.svg"></a></li>
                             <li><a href="http://twitter.com/share?text=url=https://tinder.knowthevaccine.com"><img src="../assets/images/iconsgames/Twitter.svg"></a></li>
-                            <li><a href="'https://www.facebook.com/sharer/sharer.php?u=https://tinder.knowthevaccine.com/"><img src="../assets/images/iconsgames/FB.svg"></a></li>
+                            <li><a href="https://www.facebook.com/sharer/sharer.php?u=https://tinder.knowthevaccine.com/"><img src="../assets/images/iconsgames/FB.svg"></a></li>
 
                         </ul>
                     </div>

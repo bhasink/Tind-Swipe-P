@@ -238,6 +238,7 @@ body{
 
 .questioncrds .fnfacts {
     width: 145px;
+    margin-bottom: 40px;
 }
 
 .scoreright p {
@@ -321,11 +322,11 @@ body{
 52deg
 , #fd267d 0%, #fe476c 50%, #ff7854 75%);
     color: #fff;
-    padding: 8px 27px;
+    padding: 8px 25px;
     border-radius: 20px;
     margin: 0 10px;
     font-size: 13px;
-	font-family: 'Proxima Nova Rg';
+	font-family: 'Proxima Nova Th';
     font-weight: bold;
 }
 
