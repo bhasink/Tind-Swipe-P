@@ -51,7 +51,7 @@
 
 
 
-                        <a href="/" class="gradients ">
+                        <a href="https://phpstack-163112-1984089.cloudwaysapps.com/?v=cache" class="gradients ">
                             Play Again
                         </a>
 
@@ -69,7 +69,7 @@
 
                             </div>
                             <div class="col-lg-6 col-6">
-                                <a href="/" class="gradients">
+                                <a href="https://phpstack-163112-1984089.cloudwaysapps.com/?v=cache" class="gradients">
                                     Play Again
                                 </a>
                             </div>

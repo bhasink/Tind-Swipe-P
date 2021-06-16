@@ -216,14 +216,6 @@ export default {
     display: flex;
     justify-content: center;
 }
- .cardd--two {
-     position: absolute;
-     transform: translate(3%, 3%);	 
-}
- .cardd--three {
-     position: absolute;
-     transform: translate(5%, 5%);	
- }
 
  .actionctas {
     margin-top: 3em;

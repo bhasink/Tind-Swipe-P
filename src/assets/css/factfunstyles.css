@@ -121,7 +121,7 @@ body{
 }
 
 .mythsbadges {
-    width: 64px;
+    width: 62px;
     float: right;
     position: absolute;
     right: 24px;
@@ -184,7 +184,7 @@ body{
 .actionctas .btnctas {
     border: none;
     background: transparent;
-    margin: 11px 8px;
+    margin: 11px 15px;
     padding: 0;
 	position: relative;
 	outline: none;
@@ -268,7 +268,9 @@ body{
     display: flex;
     flex-direction: column;
     border-radius: 19px;
-    box-shadow: #d0d2db 3px 2px 6px 3px;
+    box-shadow: -2px -2px 6px 3px #1212132e;
+    border-right: 5px solid #efefef;
+	border-bottom: 5px solid #efefef;
 }
 
 .quizcontent {
@@ -414,11 +416,27 @@ body{
 
 .btmmarg.twsets .gradients{
 	padding: 11px 27px;
+	
 }
 
 
+
+
+ .cardd--two {
+     position: absolute;
+     transform: translate(1.7%, 1%);	 
+}
+ .cardd--three {
+     position: absolute;
+     transform: translate(3.3%, 2%);	
+ }
+
 @media screen and (max-width: 767px) and (min-width: 320px){
-	
+
+ .actionctas .btnctas img{
+	 width: 53px;
+	 height: 53px;
+ }
 	.btmmarg.twsets {
     width: 100%;
     max-width: initial;
@@ -452,15 +470,46 @@ body{
     margin-bottom: 8px;
 }
 
+.actionctas .btnctas{margin: 11px 18px;}
+
 }
 
 .cardssets-swipe{padding:0 10px;}
 
 .cardssets-swipe.swipcardright {
     box-shadow: 0px 0px 3px 4px #0000001f;
+	border-right:none;
+	border-bottom: none;
 }
 
 .cardssets-swipe.swipcardleft {
     box-shadow: 0px 0px 3px 4px #0000001f;
+	border-right:none;
+	border-bottom: none;
 }
 
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) {
+				.cardssets-swipe{
+					    min-height: 381px;
+				}
+
+		}
+		
+		
+@media only screen and (min-device-width: 414px) 
+                   and (max-device-width: 736px) 
+                   {
+					  .cardssets-swipe{
+					    min-height: 381px;
+				}
+				   }
+				   
+				   
+@media screen and (max-width: 1920px) and (min-width: 1897px){
+	.cardssets-swipe{
+		min-height: 395px;
+	}
+}
