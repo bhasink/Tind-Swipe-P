@@ -3,7 +3,7 @@
 
 <div>  
 
-    <transition name="component-fade" mode="out-in">
+    <transition name="component-fade">
 
         <keep-alive>
         <component :is="gameComponent" 

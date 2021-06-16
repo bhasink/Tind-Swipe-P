@@ -7,7 +7,7 @@
             <div class="container">
                 <div class="scrorecount">
                     <div class="backleft">
-                        <a href="#"><i class="fas fa-chevron-left"></i></a>
+                        <a href="/"><i class="fas fa-chevron-left"></i></a>
                     </div>
 
                     <div class="scoreright">
@@ -138,7 +138,15 @@
             },
             goToHome(){
                 this.$router.push('/');
-            }
+            },
+            handleStyles: function () {
+
+			    document.body.className = 'testblock'
+		
+		    }
+        },
+        mounted () {
+            this.handleStyles()
         }
 
     }

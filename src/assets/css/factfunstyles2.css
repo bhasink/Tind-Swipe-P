@@ -115,22 +115,17 @@ body{
 .factsbadges {
     width: 64px;
     float: left;
-    left: 10px;
-	    transform: rotate(
--35deg
-);
+    position: absolute;
+    left: 17px;
+    top: -50px;
 }
 
 .mythsbadges {
     width: 62px;
     float: right;
-    right: 10px;
-	transform: rotate( 45deg);
-}
-
-.factsbadges, .mythsbadges{
-	    position: absolute;
-    top: 25px;
+    position: absolute;
+    right: 24px;
+    top: -50px;
 }
 
 .mainwhiteheader a .fulllogo {
@@ -275,26 +270,25 @@ body{
     display: flex;
     flex-direction: column;
     border-radius: 19px;
-    box-shadow: -1px -1px 3px 2px #12121329;
+    box-shadow: -2px -2px 6px 3px #12121329;
     border-right: 5px solid #efefef;
 	border-bottom: 5px solid #efefef;
-	position:relative;
 }
 
 .quizcontent {
     margin: auto;
+	 position: relative;
 }
 
 .quizcontent p {
     color: #ffffff;
     font-family: 'Proxima Nova Th';
-    font-size: 22px;
-    line-height: 25px;
+    font-size: 25px;
+    line-height: 28px;
 }
 
 .iconqst {
     width: 65px;
-	margin: 5px 0 0 0;
 }
 
 .iconqst-small {
@@ -440,26 +434,8 @@ body{
      position: absolute;
     transform: translate(1.3%, 0%);
  }
- 
- .actionctas {
-    margin-top: 3em;
-}
-
-img.riconqst {
-    width: 63px;
-}
 
 @media screen and (max-width: 767px) and (min-width: 320px){
-	.questionareset {
-    padding-top: 10px;
-}
-
-.actionctas .btnctas{margin: 0px 18px;}
-
-.questioncrds .fnfacts{
-	margin-bottom: 25px;
-	width: 131px;
-}
 	.actionctas .btnctas .tooltpsshow{left: -4px;}
 .questioncrds{width: 100%;     overflow: hidden;}
  .actionctas .btnctas img{
@@ -503,24 +479,7 @@ img.riconqst {
 
 .actionctas.btmmarg{max-width: 318px;}
 
-.actionctas .btnctas{margin: 0px 18px;}
-.quizcontent p{font-size: 23px;}
-.mainwhiteheader{    padding: 10px 0;}
-.finalresshows {
-    margin-top: 4px;
-}
-
-.finalresshows img {
-    max-width: 209px;
-}
-
-.opacityblock{
-    overflow: hidden;
-}
-
-mg.riconqst {
-    width: 63px;
-}
+.actionctas .btnctas{margin: 11px 18px;}
 
 }
 
@@ -543,11 +502,8 @@ mg.riconqst {
     and (device-height : 812px) 
     and (-webkit-device-pixel-ratio : 3) {
 				.cardssets-swipe{
-					    min-height: 307px;
-						    margin-bottom: 0;
+					    min-height: 381px;
 				}
-				
-				
 
 		}
 		
@@ -556,9 +512,8 @@ mg.riconqst {
                    and (max-device-width: 736px) 
                    {
 					  .cardssets-swipe{
-					    min-height: 340px;
+					    min-height: 381px;
 				}
-				
 				   }
 				   
 				   

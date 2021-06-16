@@ -130,7 +130,7 @@ body{
 
 .factsbadges, .mythsbadges{
 	    position: absolute;
-    top: 25px;
+        top: -33px;
 }
 
 .mainwhiteheader a .fulllogo {
@@ -275,7 +275,7 @@ body{
     display: flex;
     flex-direction: column;
     border-radius: 19px;
-    box-shadow: -1px -1px 3px 2px #12121329;
+    box-shadow: -2px -2px 6px 3px #12121329;
     border-right: 5px solid #efefef;
 	border-bottom: 5px solid #efefef;
 	position:relative;
@@ -445,7 +445,7 @@ body{
     margin-top: 3em;
 }
 
-img.riconqst {
+mg.riconqst {
     width: 63px;
 }
 
@@ -455,6 +455,10 @@ img.riconqst {
 }
 
 .actionctas .btnctas{margin: 0px 18px;}
+
+.actionctas {
+    margin-top: 1.5em;
+}
 
 .questioncrds .fnfacts{
 	margin-bottom: 25px;
@@ -514,9 +518,7 @@ img.riconqst {
     max-width: 209px;
 }
 
-.opacityblock{
-    overflow: hidden;
-}
+body{    overflow: hidden;}
 
 mg.riconqst {
     width: 63px;

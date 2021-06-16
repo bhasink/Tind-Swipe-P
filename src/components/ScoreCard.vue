@@ -6,7 +6,7 @@
 	<div class="container">
 		<div class="scrorecount">
 			<div class="backleft">
-				<a href="https://tinder.knowthevaccine.com/"><i class="fas fa-chevron-left"></i></a>
+				<a @click="goBack" href="#"><i class="fas fa-chevron-left"></i></a>
 			</div>
 			
 			<div class="scoreright">
@@ -80,11 +80,31 @@
 
 export default {
     name: 'ScoreCard',
-    props: ['score','matcharraydata']
+    props: ['score','matcharraydata'],
+	methods: {
+		handleStyles: function () {
+
+			document.body.className = 'testblock'
+		
+		},
+		goBack(){
+			this.$emit('goback', 'goback');
+		}
+	},
+	mounted () {
+      this.handleStyles()
+    },
 
 }
 </script>
 
-<style scoped>
+<style >
+
+@media screen and (max-width: 767px) and (min-width: 320px)
+{
+body {
+    overflow: unset;
+}
+}
 
 </style>

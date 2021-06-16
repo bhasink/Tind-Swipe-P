@@ -24,19 +24,18 @@
             <div class="cblk">
                  <div
                     v-if="current"
-                    style="z-index: 3"
+                    style="z-index: 3;transition:all .30s ease-in"
                     class="fixed fixed--center"
-                    :class="{ 'transition': isVisible }">
+                    >
                     <Vue2InteractDraggable
                     v-if="isVisible"
                     :interact-out-of-sight-x-coordinate="500"
-                    :interact-max-rotation="10"
-                    :interact-x-threshold="200"
+                    :interact-max-rotation="12"
+                    :interact-x-threshold="100"
                     :interact-y-threshold="200"
                     :interact-event-bus-events="interactEventBus"
                     interact-block-drag-down 
                     interact-block-drag-up
-                    interact-lock-y-axis
                     @draggedRight="emitAndNext('match',current)"
                     @draggedLeft="emitAndNext('reject',current)"
                     class="cardd cardd--one fixed fixed--center"
@@ -168,14 +167,13 @@ export default {
     },
     emitAndNext(event,current) {
 
-    console.log('sdfsdf');
         
-      if(current.type == "fact" && event == "match"){
+      if(current.type == "Fact" && event == "match"){
           
           this.score++;
           this.matcharray.correct.push(current);
 
-      }else if(current.type == "myth" && event == "reject"){
+      }else if(current.type == "Myth" && event == "reject"){
           
           this.score++;
           this.matcharray.correct.push(current);
@@ -187,11 +185,11 @@ export default {
       }
 
       this.$emit(event, { index: this.index, card_d: current });
-      setTimeout(() => this.isVisible = false, 200);
+      setTimeout(() => this.isVisible = false, 300);
       setTimeout(() => {
         this.index++
         this.isVisible = true
-      }, 200);
+      }, 300);
 
       this.inx++;
       this.$emit('clicked', this.inx);
@@ -207,10 +205,16 @@ export default {
           v.isActive = false;           
        }, 3500, v );
     
+    },
+    handleStyles: function () {
+
+      document.body.className = 'opacityblock'
+    
     }
   },
   mounted: function(){
-     this.computedOpacity()
+     this.computedOpacity(),
+    this.handleStyles()
  }
   
 }
@@ -231,13 +235,8 @@ export default {
     justify-content: center;
 }
 
- .actionctas {
-    margin-top: 3em;
-}
-
 .active{
   opacity: 1 !important;
 }
-
 
 </style>
