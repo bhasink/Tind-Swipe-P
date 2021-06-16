@@ -92,6 +92,8 @@ export default {
 }
 </script>
 
+
+
 <style scoped>
 
 .component-fade-enter-active, .component-fade-leave-active {
@@ -103,4 +105,6 @@ export default {
 }
 
 </style>
+
+
 

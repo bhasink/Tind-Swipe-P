@@ -8,7 +8,7 @@
     <div class="container">
       <div class="scrorecount">
         <div class="backleft">
-          <a href="#"><i class="fas fa-chevron-left"></i></a>
+          <a href="https://tinder.knowthevaccine.com/"><i class="fas fa-chevron-left"></i></a>
         </div>
         
         <div class="scoreright">
@@ -91,11 +91,11 @@
 			<div class="actionctas">
 				<button class="btnctas" @click="reject">
 				<img src="../assets/images/iconsgames/Myth.svg">
-				<img src="../assets/images/iconsgames/Myth Tooltip.svg" class="tooltpsshow">
+				<img src="../assets/images/iconsgames/Myth Tooltip.svg" v-bind:class="{ active: isActive }" class="tooltpsshow">
 				</button>
 				<button class="btnctas" @click="match">
 				<img src="../assets/images/iconsgames/Fact.svg">
-				<img src="../assets/images/iconsgames/Fact Tooltip.svg" class="tooltpsshow">
+				<img src="../assets/images/iconsgames/Fact Tooltip.svg" v-bind:class="{ active: isActive }" class="tooltpsshow">
 				</button>
 
 
@@ -127,6 +127,7 @@ export default {
   components: { Vue2InteractDraggable },
   data() {
     return {
+      isActive: false,
       display:false,  
       component:"Results",
       isVisible: true,
@@ -196,8 +197,21 @@ export default {
       this.$emit('clicked', this.inx);
       this.$emit('score_data', this.score);
       this.$emit('matcharray', this.matcharray);
+    },
+    computedOpacity: function () {
+
+      var v = this;
+      this.isActive = true;
+
+      setTimeout(() => {
+          v.isActive = false;           
+       }, 3500, v );
+    
     }
   },
+  mounted: function(){
+     this.computedOpacity()
+ }
   
 }
 </script>
@@ -220,5 +234,10 @@ export default {
  .actionctas {
     margin-top: 3em;
 }
+
+.active{
+  opacity: 1 !important;
+}
+
 
 </style>

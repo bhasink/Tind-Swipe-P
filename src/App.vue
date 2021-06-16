@@ -12,6 +12,7 @@
   </div>
 </template>
 
+
 <script>
 import SwipeableCards from './components/SwipeableCards.vue';
 
@@ -25,3 +26,4 @@ export default {
 <style>
 @import './assets/css/factfunstyles.css';
 </style>
+ 

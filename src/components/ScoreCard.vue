@@ -6,7 +6,7 @@
 	<div class="container">
 		<div class="scrorecount">
 			<div class="backleft">
-				<a href="#"><i class="fas fa-chevron-left"></i></a>
+				<a href="https://tinder.knowthevaccine.com/"><i class="fas fa-chevron-left"></i></a>
 			</div>
 			
 			<div class="scoreright">
@@ -49,7 +49,7 @@
 				<div class="row"> 
 				
 				<div class="col-lg-6 col-6">
-				<a href="https://phpstack-163112-1984089.cloudwaysapps.com/?v=cache" class="gradients">
+				<a href="/" class="gradients">
 					Play Again
 				</a>
 				</div>
