@@ -185,7 +185,7 @@ export default {
       }
 
       this.$emit(event, { index: this.index, card_d: current });
-      setTimeout(() => this.isVisible = false, 300);
+      setTimeout(() => this.isVisible = false, 200);
       setTimeout(() => {
         this.index++
         this.isVisible = true
@@ -203,7 +203,7 @@ export default {
 
       setTimeout(() => {
           v.isActive = false;           
-       }, 3500, v );
+       }, 3000, v );
     
     },
     handleStyles: function () {

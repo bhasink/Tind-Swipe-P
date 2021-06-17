@@ -49,7 +49,7 @@
 				<div class="row"> 
 				
 				<div class="col-lg-6 col-6">
-				<a href="/" class="gradients">
+				<a  href="/" class="gradients">
 					Play Again
 				</a>
 				</div>

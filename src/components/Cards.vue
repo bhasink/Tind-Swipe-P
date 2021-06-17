@@ -12,7 +12,8 @@
         :matcharraydata="matcharraydata"
         @clicked="onClickChild" 
         @score_data="score_data" 
-        @matcharray="matcharray" />
+        @matcharray="matcharray"
+         />
         </keep-alive>
 
     </transition>

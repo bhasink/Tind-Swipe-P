@@ -6,7 +6,7 @@
     <transition name="component-fade" mode="out-in">
 
         <keep-alive>
-        <component :is="resultComponent" :matcharraydata="matcharraydata" :score="score" @clicked="scoreCard" @goback="goBack" />
+        <component :is="resultComponent" :matcharraydata="matcharraydata" :score="score" @clicked="scoreCard" @goback="goBack"  />
         </keep-alive>
 
     </transition>
