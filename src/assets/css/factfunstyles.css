@@ -204,7 +204,7 @@ body{
     background: #fefeff;
     height: 43px;
     border-radius: 100%;
-    box-shadow: 1px ​1px 1px 1px #f3e9e3;
+    box-shadow: 1px 1px 3px 0px #d9d0d0;
 }
 
 .actionctas .btnctas .tooltpsshow {
@@ -237,7 +237,7 @@ body{
 
 .questioncrds {
     margin: auto;
-    max-width: 512px;
+    max-width: 533px;
     text-align: center;
 }
 
@@ -275,9 +275,8 @@ body{
     display: flex;
     flex-direction: column;
     border-radius: 19px;
-    box-shadow: -1px -1px 3px 2px #12121329;
-    border-right: 5px solid #efefef;
-	border-bottom: 5px solid #efefef;
+   box-shadow: 0px 4px 0px 0px #ffffff;
+    border-bottom: 1px solid #dcdcdc;
 	position:relative;
 }
 
@@ -332,7 +331,7 @@ body{
     border-radius: 20px;
     margin: 0 10px;
     font-size: 13px;
-	font-family: 'Proxima Nova Th';
+	    font-family: 'Proxima Nova Rg';
     font-weight: bold;
 }
 
@@ -404,8 +403,11 @@ body{
 
 .questset span {
     float: right;
-	    width: 39px;
-		    position: relative;
+	width: 64px;
+	position: relative;
+	display: flex;
+    flex-direction: row;
+	    align-items: center;
 }
 
 .questset.correctred {
@@ -413,12 +415,11 @@ body{
 	 position: relative;
 }
 
-.questset:after {content: "";position: absolute;    right: 58px; border-left: 2px solid #000;top: 0;height: 100%;}
-.questset.correctred:after{content: "";position: absolute;    right: 58px; border-left: 2px solid #fe3775;top: 0;height: 100%;}
+.questset:after {content: "";position: absolute;    border-left: 2px solid #000;top: 0;height: 100%;}
+.questset.correctred:after{content: "";position: absolute;  border-left: 2px solid #fe3775;top: 0;height: 100%;}
 
-.questset:after, .questset.correctred:after{
-	right: 68px; 
-}
+.questset:after, .questset.correctred:after{    right: 81px;}
+
 
 .questset.correctred span, .questset.correctred p {
     color: #fd5068;
@@ -434,19 +435,62 @@ body{
 
  .cardd--two {
      position: absolute;
-        transform: translate(1.6%, 0.3%);
+    transform: translate(0.0%, 1.4%);
 }
  .cardd--three {
      position: absolute;
-    transform: translate(1.3%, 0%);
+    transform: translate(0%, 0%);
  }
  
  .actionctas {
-    margin-top: 1.4em;
+    margin-top: 3em;
 }
 
 img.riconqst {
     width: 63px;
+}
+
+.footerbottoms p img {
+    width: 96px;
+}
+
+footer.footerbottoms.text-center p {
+    margin: 0;
+	    line-height: 16px;
+}
+
+ footer.footerbottoms.text-center p{
+	font-family: 'GT America';
+    font-style: normal;
+    font-weight: 100;
+	font-size: 15px;
+}
+
+.footerbottoms {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    border-top: 1px solid #ddd;
+    padding: 10px 0;
+	z-index:9;
+}
+
+body.testblock {
+    padding-bottom: 50px;
+}
+
+.finalresshows .questset span img {
+    width: 16px;
+    display: inline-block;
+    float: right;
+	margin: auto;
+}
+
+.cardcovershadow {
+    box-shadow: #dbdada 0px 8px 3px 0px;
+    border-radius: 30px;
 }
 
 @media screen and (max-width: 405px) and (min-width: 320px){
@@ -471,6 +515,8 @@ img.riconqst {
     padding-top: 10px;
 }
 
+.cardd--two{transform: translateY(1.3%);}
+
 .actionctas .btnctas{margin: 0px 18px;}
 
 .questioncrds .fnfacts{
@@ -478,7 +524,7 @@ img.riconqst {
 	width: 131px;
 }
 	.actionctas .btnctas .tooltpsshow{left: -4px;}
-.questioncrds{width: 100%;     overflow: hidden;}
+.questioncrds{width: 100%;}
  .actionctas .btnctas img{
 	 width: 53px;
 	 height: 53px;

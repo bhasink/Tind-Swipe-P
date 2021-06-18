@@ -7,7 +7,7 @@
             <div class="container">
                 <div class="scrorecount">
                     <div class="backleft">
-                        <a href="/"><i class="fas fa-chevron-left"></i></a>
+                        <a href="https://tinder.knowthevaccine.com/quiz"><i class="fas fa-chevron-left"></i></a>
                     </div>
 
                     <div class="scoreright">
@@ -51,7 +51,7 @@
 
 
 
-                        <a href="/" class="gradients ">
+                        <a href="/quiz" class="gradients ">
                             Play Again
                         </a>
 
@@ -69,7 +69,7 @@
 
                             </div>
                             <div class="col-lg-6 col-6">
-                                <a href="/" class="gradients">
+                                <a href="/quiz" class="gradients">
                                     Play Again
                                 </a>
                             </div>

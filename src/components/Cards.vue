@@ -43,7 +43,7 @@ export default {
         { src: 'injection.png', name: 'You can celebrate getting your jab with some alcohol.', type: 'Myth' },
         { src: 'injection.png', name: 'You can never get COVID after getting vaccinated.', type: 'Myth' },
         { src: 'injection.png', name: 'The vaccine has mild side effects.', type: 'Fact' },
-        { src: 'injection.png', name: 'You can take the vaccine immediately after recovering from COVID.', type: 'myth' },
+        { src: 'injection.png', name: 'You can take the vaccine immediately after recovering from COVID.', type: 'Myth' },
         { src: 'injection.png', name: 'You can take the vaccine on your period.', type: 'Fact' },
         { src: 'injection.png', name: 'I don’t need a vaccine if all my family members have taken it.', type: 'Myth' },
         { src: 'injection.png', name: 'Vaccines released for emergency authorisation use are safe.', type: 'Fact' },

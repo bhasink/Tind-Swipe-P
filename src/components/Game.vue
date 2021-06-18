@@ -62,6 +62,7 @@
                 v-if="next"
                 class="cardd cardd--two fixed fixed--center"
                 style="z-index: 2">
+				 <div class="cardcovershadow">
                 <div class="cardssets-swipe">
                     <div class="quizcontent">
                         <p>{{next.name}}</p>
@@ -71,11 +72,12 @@
                     </div>
                     </div>
                 </div>
-
+				</div>
                 <div
                 v-if="index + 2 < cards.length"
                 class="cardd cardd--three fixed fixed--center"
                 style="z-index: 1">
+				<div class="cardcovershadow"> 
                  <div class="cardssets-swipe">
                     <div class="quizcontent">
                         <p>{{next.name}}</p>
@@ -85,6 +87,7 @@
                     </div>
                     </div>
                 </div>
+				</div>
             </div>
 			
 			<div class="actionctas">

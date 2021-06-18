@@ -10,6 +10,12 @@
         </keep-alive>
 
     </transition>
+	
+	<footer class="footerbottoms text-center">
+<div class="container">
+	<p>A panel of licensed medical experts working with <img src="../assets/images/iconsgames/PharmEasy.svg"> to spread health awareness</p>
+</div>
+</footer>
 
 </div>
 
