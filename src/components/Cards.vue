@@ -28,7 +28,7 @@
 
 <script>
 import Game from '../components/Game.vue';
-import Result from '../components/Result.vue';
+import ScoreCard from '../components/ScoreCard.vue';
 
 
 export default {
@@ -62,14 +62,14 @@ export default {
   computed: {
     gameComponent() {
       if (!this.comp) return Game;
-      if (this.comp == "Result") return Result;
+      if (this.comp == "ScoreCard") return ScoreCard;
 
     }
   },
   methods: {
     onClickChild (value) {
       if(value == 5){
-          this.comp = "Result";
+          this.comp = "ScoreCard";
       }
 
     },

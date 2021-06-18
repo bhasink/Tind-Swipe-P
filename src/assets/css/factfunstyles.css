@@ -629,4 +629,9 @@ mg.riconqst {
 	.cardssets-swipe{
 		min-height: 395px;
 	}
+	
+	 .cardd--two {
+     position: absolute;
+    transform: translate(0.0%, 1.3%);
+}
 }

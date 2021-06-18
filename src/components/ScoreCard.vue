@@ -6,7 +6,7 @@
 	<div class="container">
 		<div class="scrorecount">
 			<div class="backleft">
-				<a @click="goBack" href="#"><i class="fas fa-chevron-left"></i></a>
+				<a href="https://tinder.knowthevaccine.com/quiz/"><i class="fas fa-chevron-left"></i></a>
 			</div>
 			
 			<div class="scoreright">
@@ -16,8 +16,13 @@
 		</div>
 		
 		<div class="questioncrds">
-			<img src="../assets/images/iconsgames/stickermyfact.png" class="fnfacts">
-			
+
+			 <div class="finalresshows">
+
+                <img :src="require(`../assets/images/iconsgames/${getresultimage}`)" />
+
+             </div>
+
 			<div class="finalresshows tablemythfcts">
 
 
@@ -49,7 +54,7 @@
 				<div class="row"> 
 				
 				<div class="col-lg-6 col-6">
-				<a  href="/quiz" class="gradients">
+				<a  href="/" class="gradients">
 					Play Again
 				</a>
 				</div>
@@ -85,6 +90,35 @@
 export default {
     name: 'ScoreCard',
     props: ['score','matcharraydata'],
+	computed: {
+            getresultimage(){
+
+                if(this.score == 0){
+                    return this.image = "0_5.svg";
+                }
+
+                if(this.score == 1){
+                    return this.image = "1_5.svg";
+                }
+
+                if(this.score == 2){
+                    return this.image = "2_5.svg";
+                }
+
+                if(this.score == 3){
+                    return this.image = "3_5.svg";
+                }
+
+                if(this.score == 4){
+                    return this.image = "4_5.svg";
+                }
+
+                if(this.score == 5){
+                    return this.image = "5_5.svg";
+                }
+
+            }
+    },
 	methods: {
 		handleStyles: function () {
 
