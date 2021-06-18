@@ -8,11 +8,6 @@
 			<div class="backleft">
 				<a href="https://tinder.knowthevaccine.com/quiz/"><i class="fas fa-chevron-left"></i></a>
 			</div>
-			
-			<div class="scoreright">
-				<p>Score:</p>
-				<p class="numberct">{{score}}/5</p>
-			</div>
 		</div>
 		
 		<div class="questioncrds">
